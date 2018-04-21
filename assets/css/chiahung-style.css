@@ -1,0 +1,27 @@
+.color-grey {
+	color: grey
+}
+
+.userCourses {
+	margin-top: 10px;
+	text-align: center;
+}
+.userCourses .courseWrapper {
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+}
+.userCourses .course {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.userCourses .coursename {
+	font-size: 11px;
+	margin: 5px 0 0 0;
+}
