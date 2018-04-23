@@ -1,97 +1,137 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="author" content="Chiahung-lin">
-		<link rel="icon" href="./assets/image/favicon.ico"><!--最上面的圖片-->
-		
-		<title>Learning list</title>
 		<link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-
-		<style>
-		  .container {
-			max-width: 800px;
-		  }
-		</style>
 		<link href="./assets/css/timeliner/timeliner-future.css" rel="stylesheet">
 		<link href="./assets/css/vendor/venobox/venobox.css" rel="stylesheet">
+		<link href="./assets/css/chiahung-style.css" rel="stylesheet">
+		<link rel="icon" href="assets/image/favicon.ico"><!--最上面的圖片-->
+		<title>Chiahung-lin's Home</title>
 		<!-- InstanceBeginEditable name="head" -->
 		<style type="text/css">
+			.container {
+				max-width: 1000px;
+			 }
 			.margin {				
 				margin: 0 0 10px 8px;
 			}
-			.color-grey {
-				color: grey
-			}
+
 		</style>
+
 	</head>
 	<body>
-		<div class="container bs-docs-container">	
+		<div class="container">	
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
 			  <li><a href="./index.html">Home</a></li><!--Home-->
 			  <li><a href="./index.html">About Me</a></li><!--aboutMe.html aboutMe 尚須修正-->
-			  <li><a href="./Learning_list.html">Learning list</a></li>
+			  <li><a href="./Learning_list.html" target="_blank">Learning list</a></li>
 			</ul>
 			<h3 class="text-muted"><a href="./index.html">Chiahung-lin's Home</a></h3>
 		</div>
 		<!-- InstanceBeginEditable name="EditRegion3" -->			
-			<div class="row">
+		<div class="row">
 				<div class="col-md-3" align="center">		
-					<img class="img-circle" src="./assets/image/my_face.jpg"  style="width: 120px; height: 120px;">
+					<img class="img-circle" src="./assets/image/my_face.jpg" style="width: 120px; height: 120px;">
 					<!-- wordpress / Gravatar -->
 				</div>
 				<div class="col-md-9">		
-					<h3>林家弘 (維尼弘, Pooh)</h3>					
-					chia.hung.lin.bio@gmail.com
+					<h3>Lin,Chia-Hung 林家弘</h3>					
+					<b>Email:chia.hung.lin.bio@gmail.com</b>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">			
-					<h4>學歷：</h4>
+					<h4>Education：</h4>
 					<dl>			
-						<dt><h4> - 碩士 (2013~2015)：</h4></dt>
-						<dd>&nbsp; &nbsp; 慈濟大學醫學資訊學研究所 </dd>		
-						<dt><h4> - 學士 (2009~2013)：</h4></dt>
-						<dd>&nbsp; &nbsp; 慈濟大學醫學資訊學系 </dd>					
+						<dd>Department of Medical Informatics,<br>Tzu Chi University </dd>
+						<dt> - Master's Degree (2013~2015)</dt>		
+						<dt> - Bachelor's Degree (2009~2013)</dt>					
 					</dl><!--學歷-->
 					
-					<h4>擅長程式語言：</h4>
-					<table class="table">
-						<tbody>
-							<tr>
-								<td>
-									<a href="https://www.mathworks.com/" target="_blank">
-										<img class="img img-rounded tooltips tooltipstered" src="./assets/image/language/matlab.svg" style="width: 50px; height: 50px;">
-									</a>
-								</td>
-								<td>
-									<a href="https://www.python.org/" target="_blank">
-										<img class="img img-circle tooltips tooltipstered" src="./assets/image/language/python.png" style="width: 50px; height: 50px;">
-									</a>
-								</td>
-							</tr>
-						</tbody>
-					</table><!--擅長程式語言-->				
-					<h4>擅長專案平台：</h4>					
-					<table class="table">
-					</table><!-- 擅長專案平台 -->
-					<h4>書籍：</h4>
-					<table class="table">
-						<tbody>
-							<tr>
-								<td>
-									<a href="https://www.tenlong.com.tw/products/9789864342334" target="_blank">
-										<img class="img img-rounded tooltips tooltipstered" src="./assets/image/readbook/mongodb.png" style="width: 100px; height: 140px;">
-									</a>
-								</td>
-							</tr>
-						</tbody>
+					<h4>Skills(click to Certificate)：</h4>
+					<div class="userCourses" >
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a href="https://www.mathworks.com/" target="_blank" class="course" title="Matlab">
+								<img src="./assets/image/language/Matlab.png" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">Matlab</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a data-fancybox="gallery" href="./assets/image/MyCertificates/cert-1073-8296031.jpg" class="course" title="Python">
+<!-- 							<a href="https://www.python.org/" target="_blank" class="course" title="Python"> -->
+								<img src="./assets/image/language/python_0.png" alt="Python" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">Python</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a data-fancybox="gallery" href="./assets/image/MyCertificates/cert-1024-8296031.jpg" class="course" title="JavaScript">
+								<img src="./assets/image/language/JavaScript.png" alt="JavaScript" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">JavaScript</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a data-fancybox="gallery" href="./assets/image/MyCertificates/cert-1014-8296031.jpg" target="_blank" class="course" title="HTML">
+								<img src="./assets/image/language/HTML.png" alt="HTML" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">HTML</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a href="#" class="course" title="C++">
+								<img src="./assets/image/language/C++.png" alt="C++" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">C++</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a href="#" target="_blank" class="course" title="Java">
+								<img src="./assets/image/language/Java.png" alt="Java" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">Java</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a data-fancybox="gallery" href="./assets/image/MyCertificates/cert-1060-8296031.jpg" class="course" title="SQL">
+								<img src="./assets/image/language/SQL.png" alt="SQL" style="width: 100%; height: 100%;">
+							</a>
+							<p class="coursename">SQL</p>	
+						</div>
+						<div class="courseWrapper"> 
+							<div data-percent="100" data-size="60" data-line="3">
+								<canvas height="60" width="60"></canvas>
+							</div>
+							<a href="#" target="_blank" class="course" title="MongoDB">
+								<img src="./assets/image/language/MongoDB.png" alt="MongoDB" style="width: 100%; height: 100%;">
 
-
-					</table><!--書籍-->	
+							</a>
+<!-- 							<a data-fancybox="gallery" href="./assets/image/language/MongoDB.png"><img src="./assets/image/language/SQL.png"></a> -->
+							<p class="coursename">MongoDB</p>	
+						</div>							
+					</div>	
 					<h4>活動：</h4>
 					<table class="table">
 					</table><!--活動-->				
@@ -116,16 +156,17 @@
 									&nbsp; &nbsp;優先準備python基礎使用方法(django、tensorflow+keras)
 									<br>
 									<ul>學習順序
-										<li><strong>Matlab基礎使用方法</strong></li>
+										<li><strong>Matlab基礎使用方法(OK)</strong></li>
 										<li><strong>Javascript基礎使用方法</strong></li>
 											<ul>
+												<li><strong>Javascript基礎(OK)</strong></li>
 												<li><strong>jquery基礎使用方法</strong></li>
 												<li><strong>Node.js基礎使用方法</strong></li>
 											</ul>
 										<li><strong>C#基礎使用方法</strong></li>
-										<li><strong>SQL基礎使用方法</strong></li>
 										<li><strong>Power BI基礎使用方法</strong></li>
 										<li><strong>Powershell基礎使用方法</strong></li>
+										<li><strong>SQL基礎使用方法(MongoDB 4/24 OK)</strong></li>
 									</ul>
 									<br>
 									<br>
@@ -152,7 +193,7 @@
 
 							<dl class="timeline-series">
 								<span class="tick tick-before"></span>
-								<dt id="_20180403"><a>2018,04/03 Learn MongoDB part1 </a></dt>
+								<dt id="_20180403"><a>2018,04/03-4/24 Learn MongoDB</a></dt>
 								<span class="tick tick-after"></span>
 								<dd class="timeline-event-content" id="_20180403EX" style="display: none;">
 									<div class="row margin">
@@ -232,30 +273,30 @@
     <script type="text/javascript" src="./assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-		<script type="text/javascript" src="./assets/js/timeliner/timeliner.min.js"></script>
-		<script type="text/javascript" src="./assets/js/vendor/venobox/venobox.min.js"></script>
-		<script type="text/javascript" src="./assets/js/tooltipster/jquery.tooltipster.min.js" ></script>
+	<script type="text/javascript" src="./assets/js/timeliner/timeliner.min.js"></script>
+	<script type="text/javascript" src="./assets/js/vendor/venobox/venobox.min.js"></script>
+	<script type="text/javascript" src="./assets/js/tooltipster/jquery.tooltipster.min.js" ></script>
 
-		<script>
-			$(document).ready(function() {
-				$.timeliner({
-					timelineContainer:'#timeline'
-				});
-				$('.venobox').venobox();
-	            var tooltip = {
-	                minWidth : 200,
-	                theme : "tooltipster-light",
-	                updateAnimation: false,
-	                contentAsHTML: true,
-	                autoClose : true,
-	                onlyOne : false,
-	                position : "right",
-	                positionTracker : true
-	            };
-	            $(".tooltips").tooltipster(tooltip);
+	<script>
+		$(document).ready(function() {
+			$.timeliner({
+				timelineContainer:'#timeline'
 			});
+			$('.venobox').venobox();
+			var tooltip = {
+				minWidth : 200,
+				theme : "tooltipster-light",
+				updateAnimation: false,
+				contentAsHTML: true,
+				autoClose : true,
+				onlyOne : false,
+				position : "right",
+				positionTracker : true
+			};
+			$(".tooltips").tooltipster(tooltip);
+		});
 
-		</script>		
-		<!-- InstanceEndEditable -->
+	</script>		
+	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>
